@@ -1,0 +1,13 @@
+@if($theme == purple){
+   header{
+      background-color: azure;
+   }
+} @else if($theme == blue){
+   header{
+      background-color: rgb(124, 65, 65);
+   }
+} @else{
+   header{
+      background-color: rgb(39, 171, 180);
+   }
+}

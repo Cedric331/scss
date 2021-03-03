@@ -36,12 +36,17 @@ header {
   width: 200px;
 }
 
+header {
+  background-color: #7c4141;
+}
+
 body {
   background-color: blue;
 }
 
 footer {
   background-color: yellow;
+  padding: 100;
 }
 
 footer h1 {

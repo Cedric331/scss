@@ -1,9 +1,12 @@
 $colorPrimary: yellow;
 $colorSecondary: aqua;
+$theme: blue;
 
 @import "header";
 @import "alert";
 @import "mixin";
+@import "function";
+@import "condition";
 
 
 body{
@@ -13,6 +16,7 @@ body{
 
 footer{
    background-color: $colorPrimary;
+   padding: calcule(100,100);
    h1{
       color: green;
    }
