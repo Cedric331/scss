@@ -1,0 +1,25 @@
+@mixin center($color, $border) {
+   margin-right: auto;
+   margin-left: auto;
+   background-color: $color;
+   border-radius: $border;
+}
+
+@mixin font($font){
+   @import url('https://fonts.googleapis.com/css2?family=#{$font}&display=swap');
+   font-family: '#{$font}', sans-serif;
+}
+
+*{
+   @include font("DotGothic16");
+}
+
+#logo{
+   @include center(black,20px);
+   width: 200px;
+}
+
+#slogan{
+   @include center(brown,20px);
+   width: 200px;
+}

@@ -1,0 +1,14 @@
+%alert{
+   padding:35px;
+   border:1px solid black;
+}
+
+.alert-green{
+   @extend %alert;
+   background-color:green;
+}
+
+.alert-red{
+   @extend %alert;
+   background-color:red;
+}

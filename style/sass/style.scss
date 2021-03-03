@@ -1,0 +1,22 @@
+$colorPrimary: yellow;
+$colorSecondary: aqua;
+
+@import "header";
+@import "alert";
+@import "mixin";
+
+
+body{
+   background-color: blue;
+}
+
+
+footer{
+   background-color: $colorPrimary;
+   h1{
+      color: green;
+   }
+   &:hover{
+      background-color: black;
+   }
+}
